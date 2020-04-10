@@ -60,7 +60,7 @@ class NetworkTileProvider extends TileProvider {
 }
 
 class NonCachingNetworkTileProvider extends TileProvider {
-  const CachedNetworkTileProvider();
+  const NonCachingNetworkTileProvider();
   @override
   ImageProvider getImage(Coords<num> coords, TileLayerOptions options) {
     return NetworkImage(getTileUrl(coords, options));
