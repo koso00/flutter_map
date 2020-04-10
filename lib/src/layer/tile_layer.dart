@@ -127,7 +127,7 @@ class TileLayerOptions extends LayerOptions {
       this.keepBuffer = 2,
       this.backgroundColor = const Color(0xFFE0E0E0),
       this.placeholderImage,
-      this.tileProvider = const NonCachingNetworkTileProvider(),
+      this.tileProvider = NonCachingNetworkTileProvider(),
       this.tms = false,
       this.opacity = 1.0,
       rebuild})
